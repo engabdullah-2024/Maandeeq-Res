@@ -1,0 +1,144 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: rgb(75, 2, 14);
+    color: white;
+    border-bottom: 5px orange solid;
+}
+.header ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 20px;
+}
+.header ul:hover{
+   border: 5px orange solid;
+}
+.header span{
+    color: orange;
+}
+.header h1{
+    font-size: 30px;
+}
+.header i{
+    display: none;
+}
+
+
+.main{
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px 60px;
+}
+.main h1{
+    color: orange;
+    font-size: 90px;
+    border-bottom: 5px black solid;
+}
+.main p{
+    font-size: 30px;
+}
+
+
+.pizza{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+.pizza-left{
+    background-color: orange;
+    height: 400px;
+    width: 300px;
+   text-align: center;
+
+}
+.pizza-left img{
+    height: 200px;
+    width: 200px;
+    border-radius: 12px;
+  margin-left: 20px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(75, 2, 14) ;
+    display: flex;
+    height: 100px;
+    padding: 20px 60px;
+}
+.footer-left h1{
+    color: white;
+}
+.footer-left span{
+    color: orange;
+}
+.footer-main{
+    display: flex;
+    color: white;
+}
+.footer-right {
+display: flex;
+justify-content: space-between;
+gap: 20px;
+}
+
+.footer-right i{
+  
+    color: orange;
+    margin-top: 20px;
+   
+   font-size: 20px;
+}
+
+    
+
+
+
+
+@media screen and (max-width:600px){
+    .header{
+        padding: 20px;
+
+    }
+    .header ul{
+        display: none;
+    }
+    .header i{
+        font-size: 20px;
+        display: block;
+    }
+    .main{
+        padding: 20px;
+    }
+    .main h1{
+        font-size: 30px;
+    }
+    .main p{
+        font-size: 20px;
+        margin-top: 12px;
+    }
+   .pizza{
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+   }
+ footer{
+    flex-direction: column;
+    height: 500px;
+    padding: 20px;
+ }
+}
