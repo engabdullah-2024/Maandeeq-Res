@@ -124,6 +124,10 @@ gap: 20px;
     .header i{
         font-size: 20px;
         display: block;
+        
+    }
+    .header:hover{
+        background-color: white solid;
     }
     .main{
         padding: 20px;
