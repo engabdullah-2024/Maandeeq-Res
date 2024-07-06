@@ -81,6 +81,8 @@ footer{
     display: flex;
     height: 100px;
     padding: 20px 60px;
+    border-top: 4px orange solid;
+    border-bottom: 4px orange solid;
 }
 .footer-left h1{
     color: white;
