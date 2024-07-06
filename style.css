@@ -62,7 +62,8 @@
     height: 400px;
     width: 300px;
    text-align: center;
-   border-radius: 4px rgb(75, 2, 14) ;
+   border-bottom: 4px rgb(75, 2, 14) solid;
+   border-top:4px rgb(75, 2, 14) solid;
 
 }
 .pizza-left img{
