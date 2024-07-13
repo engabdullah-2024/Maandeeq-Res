@@ -16,6 +16,7 @@
     background-color: rgb(75, 2, 14);
     color: white;
     border-bottom: 5px orange solid;
+    
 }
 .header ul{
     display: flex;
